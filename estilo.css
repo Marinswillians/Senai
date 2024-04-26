@@ -1,0 +1,6 @@
+.botao{
+    max-width: 768px; /*largura maxima*/
+    background-color: red; /*cor de fundo*/
+    margin: 0 auto; /* 0-> Altura | auto -> largura*/
+    display: block; /* caonverter tag de texto em estruutura de div*/
+}
