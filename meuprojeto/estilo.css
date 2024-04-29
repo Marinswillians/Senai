@@ -9,22 +9,22 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    padding: 10px 0;
     background-color: red;
 }
 #logo{
-  width: 100px;
-  height: 100%;
+  width: 200px;
 }
 img{
-    width: 100%;
+    width: 100%; /*Aqui altera o tamanha da imagem do banner sim percentual%*/
+    margin: auto; /*imagens de quem somos*/
 }
 #menu ul{
     list-style: none;
     display: flex;
+    margin: 10px auto;
 }
 #menu ul li{
-    margin: 0 15px;
+    margin: 20px 15px 15px 0px;
 }
 #menu ul li a{
     color: #fff;
@@ -32,47 +32,46 @@ img{
     text-transform:uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    margin: 80px 15px 0;
 }
 #main{
     width: 100%;
-    height: auto;
 }
 #home{
-    width: 100%;
-    padding-top: 79px;
+    width: 200%;
+    padding-top: 300px;
 }
 #quem-somos{
     width: 100%;
-    color: darkred;
+    color: red;
+    font-size: 15px;
 }
 #galeria img{
-    width: 238.68px;
-    height: 100;
-    
+    width: 230.68px;
+    height: 250px; 
 }
 #contato{
     width: 100%;
 }
 #footer{
-    width: 100%;
+    width: 200%;
     height: 400px;
     background-color: #333;
     padding: 30px;
 }
 .container{
-    width: 1024px;
+    width: 1028px;
     height: 100%;
-    margin: 0 auto ;
+    margin: 0px auto ;
 }
 .tipo1{
     color: darkred;
 }
 .galeria{
-    width: 20px;
-    height: 20px;
+    width: 05px;
+    height: 05px;
     display: flex;
+    margin: 10px; 
 }
-.display{
-    display: flex;
+.col50{
+    width:50%;
 }
