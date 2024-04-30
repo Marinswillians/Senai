@@ -4,7 +4,7 @@
     background: black;
     padding: 30px;
     margin: 30px;
-    display: flex;
+    flex-direction: column;
 }
 .black p{
     color: white;
@@ -16,7 +16,7 @@
     border: 1px solid #000;
     padding: 30px;
     margin: 30px;
-    display: flex;
+    flex-direction: column;
 }
 .container{
     max-width: 1024px;
