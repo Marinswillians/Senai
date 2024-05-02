@@ -1,0 +1,20 @@
+.pai{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.filho{
+    max-width: 300px;
+    
+}
+@media screen and (max-width:1024px) {
+    .pai{
+        flex-direction: column;
+    }
+    .filho{
+        max-width: 100%;
+    }
+}
