@@ -27,14 +27,14 @@ img{
     margin: 20px 15px 15px 0px;
 }
 #menu ul li a{
-    color: #fff;
+    color: white;
     font-size: 20px;
     text-transform:uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
 #main{
-    width: 100%;
+    width:100%;
 }
 #home{
     width: 200%;
@@ -42,12 +42,13 @@ img{
 }
 #quem-somos{
     width: 100%;
-    color: red;
-    font-size: 15px;
+    color:brown;
+    font-size: 20px;
+    background-color: aqua;
 }
 #galeria img{
     width: 230.68px;
-    height: 250px; 
+    height: 300px; 
 }
 #contato{
     width: 100%;
@@ -55,16 +56,15 @@ img{
 #footer{
     width: 200%;
     height: 400px;
-    background-color: #333;
+    background-color: palevioletred;
     padding: 30px;
 }
 .container{
-    width: 1028px;
-    height: 100%;
+    width: 1300px;
     margin: 0px auto ;
 }
 .tipo1{
-    color: darkred;
+    color:black;
 }
 .galeria{
     width: 05px;
@@ -72,6 +72,18 @@ img{
     display: flex;
     margin: 10px; 
 }
-.col50{
-    width:50%;
+.foto img{
+
+    display: flex;
+    width: 400px;  
+    height: 400px;
+    justify-content: space-between;
 }
+.col50{
+    width: 50%;
+    display: flex;
+    
+}
+
+    
+
