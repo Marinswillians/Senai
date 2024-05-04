@@ -3,37 +3,47 @@
 }
 .container{
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 1048px;
     display: flex;
     color: white;
     text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .box{
-    width: 335px;
-    border: 1px #dadada solid;
-    padding-bottom: 20px;
+    max-width: 335px;
+    border: 2px #dadada solid;
+    padding-bottom: 15px;
     margin: 10px 15px 0;
-    justify-content: space-between;
-    text-decoration: none;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
+    justify-content: center;
 }
 .botao{
-    padding: 10px 30px;
-    background-color: black;
-    color: white;
+    padding: 10px 15px;
+    background-color:white;
+    color: black;
     text-decoration: none;
     width: 100px;
-    margin: 10px auto;
-    font-size: 12px;
+    margin: 0 auto;
+    font-size: 10px;
     display: flex;
+    text-align: center;
+    border-radius: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 img{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
+    margin: 30px 15px 30px 0;
 }
 @media screen and (max-width:1024px) {
-    .sessao{
+    .container{
         flex-direction: column;
+    }
+    .box{
+        max-width: 100%;
+        
     }
 }
