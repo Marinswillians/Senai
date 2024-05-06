@@ -34,7 +34,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .botao:hover{
-color: red;
+color: darkcyan;
+background: white;
 }
 img{
     width: 160px;
