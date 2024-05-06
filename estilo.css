@@ -4,10 +4,10 @@ h2{
 
 .botao{
     max-width: 768px; /*largura maxima*/
-    background-color: red; /*cor de fundo*/
+    background-color: aqua; /*cor de fundo*/
     margin: 15px auto; /* 0-> Altura | auto -> largura*/
     display: block; /* caonverter tag de texto em estruutura de div*/
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 20px;
     text-align: center;  
