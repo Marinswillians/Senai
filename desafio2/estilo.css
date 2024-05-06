@@ -14,20 +14,20 @@
     max-width: 335px;
     border: 2px #dadada solid;
     padding-bottom: 15px;
-    margin: 10px 15px 0;
+    margin: 05px 15px 0;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     justify-content: center;
 }
 .botao{
-    padding: 10px 15px;
+    padding: 10px 05px;
     background-color:white;
     color: black;
     text-decoration: none;
-    width: 100px;
+    width: 90px;
     margin: 0 auto;
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     text-align: center;
     border-radius: 5%;
