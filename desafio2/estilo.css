@@ -13,12 +13,12 @@
 .box{
     max-width: 335px;
     padding-bottom: 15px;
-    margin: 05px 15px 0;
+    margin: 15px 15px 15px 0;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-end;
+    
 }
 .botao{
     padding: 10px 50px;
@@ -38,6 +38,7 @@
     background: gray;
 }
 .box:hover{
+    align-content: flex-end;
     background:cadetblue;
     botao{background-color:darkgray }
     img{
