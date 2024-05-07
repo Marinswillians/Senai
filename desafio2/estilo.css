@@ -35,10 +35,11 @@
 .botao:hover{
     color: brown;
     background: gray;
+    
 }
 .box:hover{
-    
     background:cadetblue;
+    transition: 5s; /*Essa função faz o as cores acenderem quando passa o mause*/
     botao{background-color:darkgray }
     img{     
     }
