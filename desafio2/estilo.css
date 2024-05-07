@@ -34,8 +34,7 @@
 }
 .botao:hover{
     color: brown;
-    background: gray;
-    
+    background: gray; 
 }
 .box:hover{
     background:cadetblue;
