@@ -37,10 +37,12 @@
     background: gray; 
 }
 .box:hover{
-    background:cadetblue;
-    transition: 5s; /*Essa função faz o as cores acenderem quando passa o mause*/
+    background:gray;
+    transition: 2s;                        /*Essa função faz o as cores acenderem quando passa o mause*/
     botao{background-color:darkgray }
-    img{     
+    img{  
+        width: 100%;   
+        transition: 3s;    /*Aqui nessa função a imagem tem movimento*/
     }
 }
 img{
