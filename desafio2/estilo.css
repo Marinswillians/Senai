@@ -17,8 +17,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 .botao{
     padding: 10px 50px;
@@ -38,11 +37,10 @@
     background: gray;
 }
 .box:hover{
-    align-content: flex-end;
+    
     background:cadetblue;
     botao{background-color:darkgray }
-    img{
-        
+    img{     
     }
 }
 img{
